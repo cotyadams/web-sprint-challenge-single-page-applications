@@ -1,6 +1,47 @@
 .App {
   text-align: center;
 }
+/*Links*/
+#link-parent {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.Links {
+  margin: 5px;
+  font-size: 35px;
+  transform: translateY(-15%);
+  color: lightblue;
+  text-decoration: none;
+}
+
+/*title/image*/
+.pizzaImage {
+  width: 100%;
+  top: 51px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+/*form*/
+#pizzaBuilder {
+  text-align: center;
+  display: block;
+  align-items: center;
+}
+#pizza-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+/*enter name*/ 
+.name {
+  display: inline;
+
+}
 
 .App-logo {
   height: 40vmin;
