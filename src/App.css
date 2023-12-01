@@ -34,15 +34,48 @@
 #pizza-form {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   z-index: 1;
 }
 /*enter name*/ 
 .name {
   display: inline;
-
 }
 
+/*select size*/
+#size-dropdown {
+  margin-top: 20px;
+}
+
+/*submit button*/
+#submit-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+/*toppings selection */
+.topping {
+  display: inline;
+  margin-top: 10px;
+}
+/* special instructions*/
+#special-input {
+  margin-top: 10px;
+}
+/*errors*/
+.error {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.errors {
+  display: flex;
+  justify-content: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
